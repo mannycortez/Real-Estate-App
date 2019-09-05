@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
-import { faCocktail, 
-         FaHiking, 
+import { FaHiking, 
          FaShuttleVan, 
          FaBeer,
-         FaCocktail} from 'react-icons/fa'
+         FaCocktail } from 'react-icons/fa'
 import Title from './Title'
 
 export default class Services extends Component {
