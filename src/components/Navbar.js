@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from '../images/logo.svg'
+import logo from '../images/logo.png'
 import { FaAlignRight } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
@@ -17,7 +17,7 @@ Component {
         <div className="nav-center">
         <div className="nav-header">
         <Link to="/">
-            <img src={logo} alt="Manny's Real Estate App" />
+            <img className="logo" style={{width: "40px", height: "auto"}} src={logo} alt="Manny's Real Estate App" />
         </Link>
         <button 
             type="button" 
