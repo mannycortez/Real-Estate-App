@@ -17,12 +17,14 @@ Component {
         <div className="nav-center">
         <div className="nav-header">
         <Link to="/">
-            <img className="logo" style={{width: "40px", height: "auto"}} src={logo} alt="Manny's Real Estate App" />
+            <img className="logo" 
+                 style={{ width: "40px", height: "auto" }} 
+                 src={ logo } alt="Manny's Real Estate App" />
         </Link>
         <button 
             type="button" 
             className="nav-btn"
-            onClick={this.handleToggle}
+            onClick={ this.handleToggle }
         >
         <FaAlignRight className="nav-icon" />
         </button>
@@ -32,10 +34,22 @@ Component {
                 <Link to="/"> Home </Link>
             </li>
             <li>
+                <Link to="/comingsoon"> Locations </Link>
+            </li>
+            <li>
                 <Link to="/rooms"> Rooms </Link>
+            </li>
+            <li>
+                <Link to="/comingsoon"> About </Link>
+            </li>
+            <li>
+                <Link to="/comingsoon"> Our Team </Link>
+            </li>
+            <li>
+                <Link to="/comingsoon"> Reserve Now </Link>
             </li>
         </ul>
         </div>
-        </nav>;
+        </nav>
     }
 }
