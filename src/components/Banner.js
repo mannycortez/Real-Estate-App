@@ -10,7 +10,7 @@ export default function Banner({ children, title, subtitle })
                 loop
                 typeSpeed={70}
                 backSpeed={70}
-                strings={["Welcome all freelancers", "web developers", "software engineers", "and graphic designers"]}
+                strings={["Digital Nomads", "Traveling Entrepreneurs", "Freelance Designers"]}
                 backDelay={1000}
                 loopCount={0}
                 showCursor

@@ -12,8 +12,8 @@ export default function Home() {
     return(
         <>
         <Hero hero="defaultHero">
-            <Banner title="For Digital Nomads"
-                    subtitle="deluxe rooms starting at $299">
+            <Banner title="Welcome All"
+                    subtitle="rooms starting at $100/night">
               <Link to="/rooms" 
                     className="btn-primary">
                 our rooms

@@ -1,21 +1,21 @@
 import React, { Component } from 'react'
-import { FaHiking, 
+import { FaRegHandshake, 
          FaShuttleVan, 
-         FaBeer,
-         FaCocktail } from 'react-icons/fa'
+         FaSignal,
+         FaRegLightbulb } from 'react-icons/fa'
 import Title from './Title'
 
 export default class Services extends Component {
     state={
         services: [
             {
-                icon: <FaCocktail />,
-                title: 'Free Cocktails',
+                icon: <FaRegLightbulb />,
+                title: 'Get Inspired',
                 info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corporis!"
             },
             {
-                icon: <FaHiking />,
-                title: 'Endless Trails',
+                icon: <FaRegHandshake />,
+                title: 'Make New Friends',
                 info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corporis!"
             },
             {
@@ -24,8 +24,8 @@ export default class Services extends Component {
                 info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corporis!"
             },
             {
-                icon: <FaBeer />,
-                title: 'Coldest beer in town',
+                icon: <FaSignal />,
+                title: 'Fast Internet',
                 info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corporis!"
             }
         ]
@@ -33,7 +33,7 @@ export default class Services extends Component {
     render() {
         return (
             <section className="services">
-                <Title title="services" />
+                <Title title="Find a room anywhere in the world" />
                 <div className="services-center">
                     {this.state.services.map((item, index )=> {
                         return <article key={ index } className="service">
