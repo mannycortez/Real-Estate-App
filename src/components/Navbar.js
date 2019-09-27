@@ -31,22 +31,27 @@ Component {
         </div>
         <ul className={this.state.isOpen?"nav-links show-nav":"nav-links"}>
             <li>
-                <Link to="/"> Home </Link>
+                <Link to="/"> home </Link>
             </li>
+
             <li>
-                <Link to="/comingsoon"> Locations </Link>
+                <Link to="/rooms"> rooms </Link>
             </li>
+
             <li>
-                <Link to="/rooms"> Rooms </Link>
+                <Link to="/comingsoon"> locations </Link>
             </li>
+            
             <li>
-                <Link to="/comingsoon"> About </Link>
+                <Link to="/comingsoon"> about </Link>
             </li>
+
             <li>
-                <Link to="/comingsoon"> Our Team </Link>
+                <Link to="/comingsoon"> our team </Link>
             </li>
+            
             <li>
-                <Link to="/comingsoon"> Reserve Now </Link>
+                <Link to="/comingsoon"> reserve now </Link>
             </li>
         </ul>
         </div>

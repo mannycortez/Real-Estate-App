@@ -90,7 +90,7 @@ people = people.map((item, index) => {
                 {/* { size } */}
                 <div className = "form-group">
                     <label htmlFor = "size">
-                        room size
+                        room size | sq ft
                     </label>
                     <div className = "size-inputs">
                         <input type = "number" 
