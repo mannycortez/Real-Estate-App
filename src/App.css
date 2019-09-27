@@ -102,7 +102,11 @@ h6 {
 }
 .nav-header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+}
+.nav-center {
+  display: block;
+  justify-content: center;
 }
 .nav-btn {
   background: transparent;
